@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+      minWidth="-Infinity" prefHeight="440.0" prefWidth="755.0"
+      xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.lib.mangement.lunchs.BRecordMain" onMouseMoved="#loadinfo" onMouseEntered="#loadinfo">
+   <children>
+      <TableView   fx:id="brokentable" layoutX="-14.0" prefHeight="440.0" prefWidth="776.0">
+        <columns >
+          <TableColumn fx:id="bid" prefWidth="75.0" text="编号" />
+          <TableColumn fx:id="bsno" prefWidth="120.0" text="学号" />
+            <TableColumn fx:id="bname" prefWidth="146.0" text="姓名" />
+            <TableColumn fx:id="bdate" prefWidth="121.0" text="日期" />
+            <TableColumn fx:id="bhdate" prefWidth="141.0" text="处理日期" />
+            <TableColumn fx:id="bcontent" prefWidth="172.0" text="违规内容" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>
